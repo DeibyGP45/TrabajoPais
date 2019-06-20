@@ -1,0 +1,341 @@
+
+* {
+    
+    /* border: 1px solid green; */
+    box-sizing: border-box
+    
+}
+
+/* PRINCIPAL */
+
+body {
+    font-family: Verdana;
+    margin: 0;
+    background-image: url(../assets/Otros01.jpg);
+    background-color: #D2A786;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.main_header {
+    background-color: #F44712;
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding: 0.8rem 1rem 0.5rem 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+.main_footer {
+
+    font-family: calibri;
+    background-color: #D2A786;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.laptop {
+    display: flex;
+    padding: 1rem 1rem; 
+    flex-direction: column;
+    align-items: center}
+
+.content_wrapper {
+    background-color: white;
+    margin: 1rem 0rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+}
+
+/* MAIN HEADER  */
+
+.main_header p {
+    font-size: 1.33rem;
+    margin-top: -1rem;
+    margin-bottom: 0;
+    }
+
+.main_header nav a{
+
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+  }
+
+  .main_header nav a:hover {
+
+    background-color: white;
+    color: #F44712;
+    border-radius: 20px 10px;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+  }
+
+.main_header nav ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main_header nav li{
+
+    display: inline-block;
+    
+}
+
+/* OTROS */
+
+.content_wrapper h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-style: italic
+}
+
+/* TABLE */
+
+div .table_info {
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+}
+
+table {
+    background-color: white;
+    padding:0.3rem
+}
+tr:nth-last-of-type(even) {
+    background-color: #197278;
+    color: white
+}
+
+tr:nth-last-of-type(odd) {
+    background-color: #D5FFD9;
+    color: black
+}
+
+/* VIDEO YOUTUBE RESPONSIVE */
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/* OTROS */
+
+.panel-bienvenida {
+    background-color: rgb(187, 187, 187);
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    
+}
+.panel-bienvenida div {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    width: 100%;
+    display:flex;
+    flex-grow: 0;
+    margin: 0;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+div.ad {
+
+    min-width: 300px;
+    min-height: 100px;
+    }
+
+.ad .ad-big{
+    display:none
+} 
+
+    
+    .lateral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         }
+
+/* carteles */
+
+.carteles a {
+    color: inherit;
+    text-decoration: none;
+}
+    .cartel_malmo {
+        height: 20vh;
+        font-family: 'Righteous', cursive;
+    background-image: url(../assets/malmo03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 3rem;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin:10px;
+    }
+    .cartel_aranjuez {
+        height: 20vh;
+        font-family: 'Righteous', cursive;
+    background-image: url(../assets/Aranjuez01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 3rem;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+    }
+    .cartel_roma {
+        height: 20vh;
+        font-family: 'Righteous', cursive;
+    background-image: url(../assets/Italia03_opt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 3rem;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin:10px;
+    }
+
+
+
+
+    /* PREUBAS ARTICULOS  */
+
+    .content_wrapper2 {
+        /* display: none; */
+        background-color: white;
+        margin: 1rem 0rem;
+        padding: 1.5rem; 
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    
+    }
+
+    /* ARTICULOS  */
+
+    h3,small {
+        margin: 1rem 0 0 0;
+        font-style: italic;
+    }
+
+    .lateral a {
+
+
+    }
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+    .content_wrapper {
+        margin: 1rem 1rem;
+        }
+    .laptop {
+            display: flex;
+            padding: 1rem 15%; 
+            flex-direction: column;
+            align-items: center}
+    .content_wrapper h2 {
+                font-size: 2.2rem;
+            }
+
+}
+@media (min-width: 1024px) {
+    .content_wrapper {
+        margin: 1rem 1rem;
+        }
+    .laptop {
+            display: flex;
+            padding: 1rem 20%; 
+            flex-direction: column;
+            align-items: center;
+        }
+}
+@media (min-width:1200px) {
+
+    .content_wrapper {
+        background-color: white;
+        margin: 1rem 1rem;
+        padding: 1.5rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center
+    
+    }
+
+
+
+    .laptop {
+        display: flex;
+        padding: 1rem 20%; 
+        flex-direction: initial;
+        align-items: initial;
+        align-items: end;
+    }
+
+        .lateral {
+            flex-direction: column-reverse;
+             }
+
+             div.ad {
+                margin: 1rem 1rem;
+
+                    min-width: 160px;
+                    min-height: 600px;
+                    
+                }
+            
+                .ad-small {
+                    display:none
+                }
+                .ad .ad-big{
+                    display:block
+                } 
+
+    
+
+}

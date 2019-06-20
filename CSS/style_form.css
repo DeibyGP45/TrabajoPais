@@ -1,0 +1,49 @@
+
+/* FORMULARIO */
+
+.form_control {
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid #D2A786;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+fieldset {
+    margin-bottom: 1rem;
+    border-color: #F44712;
+    font-family: 'Righteous', cursive;
+    
+}
+.form_label {
+    display: block;
+    margin-bottom: 0.2rem;
+    
+}
+
+input::placeholder {
+    color: #1D2537
+}
+
+#Condiciones p,
+#Condiciones label {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.boton_enviar {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton_enviar button {
+
+    width: 100px;
+    height: 100%;
+    font-size: 18px;
+    
+}
